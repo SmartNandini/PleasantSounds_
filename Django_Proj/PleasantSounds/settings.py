@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-kf%)pgcfp5hwf3d^mtmai_w1c$(qk%^^9fus7%ttgvp8@w(2#8'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         #'NAME': 'PleasantSoundsDB',
         #'USER': 'root',
-        #'PASSWORD': 'SkyBlue@04',
+        #'PASSWORD': 'Your mysql password',
         #'HOST': 'localhost',
         #'PORT': 3306,
         #'OPTIONS': {
