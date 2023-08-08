@@ -1,0 +1,135 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+            <div class="row tm-row">
+                <div class="col-12">
+                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
+                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
+                        <button class="tm-search-button" type="submit">
+                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+                        </button>                                
+                    </form>
+                </div>                
+            </div>            
+            <div class="row tm-row tm-mb-45">
+                <div class="col-12">
+                    <hr class="tm-hr-primary tm-mb-55">
+                    <img src="{% static 'img/about-01.jpg' %}" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-40">
+                <div class="col-12">                    
+                    <div class="mb-4">
+                        <h2 class="pt-2 tm-mb-40 tm-color-primary tm-post-title">About PleasantSounds</h2>
+                        <p>
+                            The idea originated from the fact that not everyone can study music theory to create music. Many have the desire to create and innovate but with limited knowledge there is not much they can do. We believe creativity knows no boundry. To nuture the musical ideas and mould it into executable objects, this is the reason why we started this project.
+                        </p>
+                        <p>
+                            PleasantSounds uses AI model to predict the genre of music. The file can be uploaded in the classify section. We bring the intersection of music and technology. The model was trained on GTZAN dataset from kaggle. The latest model uses LSTM which is considered one of the best options for processing audio files.
+                        </p>                            
+                    </div>                    
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-120">
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-bezier-curve fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Background</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            We started this project with little knowledge of web development and ML models.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-users-cog fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Teamwork</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Wonderful team of five people, with each one of us sincere and skillful in their work.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fab fa-creative-commons-sampling fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Our Core Value</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Creativity knows no limits. We must nuture and grow our ideas.
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="row tm-row tm-mb-60">
+                <div class="col-12">
+                    <hr class="tm-hr-primary  tm-mb-55">
+                </div>                
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="{% static 'img/about-02.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Nandini Jha</h2>
+                            <h3 class="tm-h3 mb-3">21BCE11616</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Member 1
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="{% static 'img/about-03.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Bhavya Shachi</h2>
+                            <h3 class="tm-h3 mb-3">21BCE11162</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Member 2
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="{% static 'img/about-04.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Pragya Choubey</h2>
+                            <h3 class="tm-h3 mb-3">21BCE10667</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Member 3
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="{% static 'img/about-05.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Shreya Bhuwania</h2>
+                            <h3 class="tm-h3 mb-3">21BCE11266</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Member 4
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="{% static 'img/about-05.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Namrata Pradeep Raj</h2>
+                            <h3 class="tm-h3 mb-3">21BCE10606</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Member 5
+                            </p>
+                        </div>
+                    </div>
+                </div>      
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+{% endblock %}

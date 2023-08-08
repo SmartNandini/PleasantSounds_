@@ -1,0 +1,140 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+            <div class="row tm-row">
+                <div class="col-12">
+                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
+                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
+                        <button class="tm-search-button" type="submit">
+                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+                        </button>                                
+                    </form>
+                </div>                
+            </div>            
+            <div class="row tm-row">
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="{% static 'img/Mimg_5.jpg' %}" alt="Image" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">What is music ?</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        Music is the as the art of arranging sound to create some combination of form, harmony, melody, rhythm or otherwise expressive content. Modern music is heard in a bewildering profusion of styles, many of them contemporary, others engendered in past eras. It lends itself easily to alliances with words, as in song, and with physical movement, as in dance.
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="tm-color-primary">PleasantSounds</span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class=" tm-post-link-inner">
+                            <img src="{% static 'img/Mimg_7.jpg' %}" alt="Image" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Isn't it interesting !</h2>
+                    </a>                    
+                    <p class="tm-pt-30"> 
+                        “There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.”<br><br>— Sun Tzu
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="tm-color-primary">PleasantSounds</span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+                        <div class="tm-post-link-inner">
+                            <img src="{% static 'img/Mimg_4.jpg' %}" alt="Image" class="img-fluid">
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Are Genres important?</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        Genres are important as genres often dictate what a musician puts out and what the audience expects from it and often tells a history of that music's development. Clearly a lot of music doesn't fit in boxes so easily but a lot of music often does. Often people stick to favorite genres and become quite knowledgeable in them, trying every release. Other's may stick with just the classics of a specific genre and not branch out any further.
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="tm-color-primary">PleasantSounds</span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+                        <div class="tm-post-link-inner">
+                            <img src="{% static 'img/Mimg_6.jpg' %}" alt="Image" class="img-fluid">
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">PleasantSound brings ..</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        This project uses AI model to predict the genre of music. The file can be uploaded in the classify section. We bring the intersection of music and technology. The model was trained on GTZAN dataset from kaggle. The latest model uses LSTM which is considered one of the best options for processing audio files.
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="tm-color-primary">PleasantSounds</span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+                        <div class="tm-post-link-inner">
+                            <img src="{% static 'img/Mimg_3.jpg' %}" alt="Image" class="img-fluid">
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Look forward to ..</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        More features like music generation. The work is on progress. Let's make PleasantSounds the go to music app.
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="tm-color-primary">PleasantSounds</span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
+                        <div class="tm-post-link-inner">
+                            <img src="{% static 'img/Mimg_2.jpg' %}" alt="Image" class="img-fluid">
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Our thoughts</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        “Can a mere song change a people's minds? I doubt that it is so. But a song can infiltrate your heart and the heart may change your mind.”<br> ― Elvis Costello
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span class="tm-color-primary">PleasantSounds</span>
+                    </div>
+                </article>
+            </div>
+            <div class="row tm-row tm-mt-100 tm-mb-75">
+                <div class="tm-prev-next-wrapper">
+                    <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next disabled tm-mr-20">Prev</a>
+                    <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Next</a>
+                </div>
+                <div class="tm-paging-wrapper">
+                    <span class="d-inline-block mr-3">Page</span>
+                    <nav class="tm-paging-nav d-inline-block">
+                        <ul>
+                            <li class="tm-paging-item active">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">1</a>
+                            </li>
+                            <li class="tm-paging-item">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">2</a>
+                            </li>
+                            <li class="tm-paging-item">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">3</a>
+                            </li>
+                            <li class="tm-paging-item">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">4</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+{% endblock %}
